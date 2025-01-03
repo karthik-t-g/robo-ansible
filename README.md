@@ -1,2 +1,2 @@
 # roboshop-ansible
-configmgmt
+**configuration management**

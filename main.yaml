@@ -1,0 +1,5 @@
+- name: Disable Nginx Module
+  hosts: all
+  become: yes
+  roles:
+    - {{component}}

@@ -1,8 +1,0 @@
-- name: Disable Nginx Module
-  hosts: all
-  become: yes
-  tasks:
-    - name: Disable nginx module
-      ansible.builtin.dnf:
-      dnf module disable nginx -y
-

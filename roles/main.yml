@@ -1,2 +1,0 @@
-- name: frontend
-  ansible.builtin.shell: dnf module disable nginx 

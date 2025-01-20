@@ -1,5 +1,5 @@
-- name: Disable Nginx Module
+- name: Roboshop Ansible module run
   hosts: all
   become: yes
   roles:
-    - {{component}}
+    - frontend

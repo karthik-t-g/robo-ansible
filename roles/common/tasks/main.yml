@@ -1,0 +1,2 @@
+- name: Set-Prompt for servers
+  ansible.builtin.shell: set-prompt {{component}}-{{env}}

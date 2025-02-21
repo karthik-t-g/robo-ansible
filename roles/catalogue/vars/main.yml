@@ -3,4 +3,3 @@ component: catalogue
 schema_setup: mongo
 schema_files:
   - master-data
-MYSQL_ROOT_PASSWORD: root
